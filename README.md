@@ -26,6 +26,7 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
   - [1.6 LLM Evaluation](#16-llm-evaluation)  
   - [1.7 Agent / App Frameworks](#17-agent--app-frameworks)  
   - [1.8 Pipeline Orchestration](#18-pipeline-orchestration)  
+  - [1.9 Text-to-SQL & Database Agents](#19-text-to-sql--database-agents)  
 - [Phase 2 – Model Adaptation](#phase-2--model-adaptation)  
   - [2.1 PEFT & LoRA](#21-peft--lora)  
   - [2.2 Model Editing](#22-model-editing)  
@@ -40,9 +41,15 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 
 ---
 
-## Phase 1 – Development & Experimentation  <a id="phase-1--development--experimentat​ion"></a>
+## Phase 1 – Development & Experimentation  <a id="phase-1--development--experimentation"></a>
+
+> **Goal**: Rapidly iterate on ideas, data, and prompts to prove technical feasibility.  
+> **Description**: These tools help collect, clean, version, and explore data; craft and test prompts; prototype agents; and keep experiments reproducible.
 
 ### 1.1 Data Versioning & Governance  <a id="11-data-versioning--governance"></a>
+
+> **Goal**: Make datasets reproducible and auditable across the project’s lifetime.  
+> **Description**: Git-style version control and labeling frameworks ensure data integrity and provenance.
 
 | Project | Details | Repository |
 | :--- | :--- | :--- |
@@ -54,12 +61,18 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 
 ### 1.2 Vector Stores & RAG Tooling  <a id="12-vector-stores--rag-tooling"></a>
 
+> **Goal**: Store and retrieve embeddings efficiently for Retrieval-Augmented Generation.  
+> **Description**: RAG platforms and vector databases manage unstructured knowledge and power hybrid search.
+
 | Project | Details | Repository |
 | :--- | :--- | :--- |
 | [RagFlow](https://github.com/infiniflow/ragflow) | An open-source RAG application that provides a streamlined workflow based on deep document understanding. | ![GitHub Badge](https://img.shields.io/github/stars/infiniflow/ragflow.svg?style=flat-square) |
 | [FastGPT](https://github.com/labring/FastGPT) | A platform that based on LLM, allows you to create your own knowledge-base QA model with out-of-the-box capabilities. | ![GitHub Badge](https://img.shields.io/github/stars/labring/FastGPT.svg?style=flat-square) |
 
 ### 1.3 Document Processing & Data Cleaning  <a id="13-document-processing--data-cleaning"></a>
+
+> **Goal**: Convert raw files and web sources into high-quality, LLM-ready text.  
+> **Description**: ETL, parsing, and adversarial augmentation frameworks enhance data variety and robustness.
 
 | Project | Details | Repository |
 | :--- | :--- | :--- |
@@ -74,6 +87,9 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 
 ### 1.4 Prompt Engineering & Optimization  <a id="14-prompt-engineering--optimization"></a>
 
+> **Goal**: Design, test, and version prompts for consistent, high-quality outputs.  
+> **Description**: These tools provide A/B testing, genetic search, and interactive sandboxes for rapid iteration.
+
 | Project | Details | Repository |
 | :--- | :--- | :--- |
 | [promptfoo](https://github.com/typpo/promptfoo) | Open-source tool for testing & evaluating prompt quality. | ![GitHub Badge](https://img.shields.io/github/stars/typpo/promptfoo.svg?style=flat-square) |
@@ -84,6 +100,9 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 
 ### 1.5 Experiment Tracking  <a id="15-experiment-tracking"></a>
 
+> **Goal**: Record, compare, and reproduce experiments across data, prompts, and models.  
+> **Description**: Track metrics, parameters, and artifacts; integrate with CI to enable data-driven decisions.
+
 | Project | Details | Repository |
 | :--- | :--- | :--- |
 | [MLflow](https://github.com/mlflow/mlflow) | An open-source framework for the end-to-end machine learning lifecycle, helping developers track experiments, evaluate models/prompts, and more. | ![GitHub Badge](https://img.shields.io/github/stars/mlflow/mlflow.svg?style=flat-square) |
@@ -91,6 +110,9 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 | [Aim](https://github.com/aimhubio/aim) | An easy-to-use and performant open-source experiment tracker. | ![GitHub Badge](https://img.shields.io/github/stars/aimhubio/aim.svg?style=flat-square) |
 
 ### 1.6 LLM Evaluation  <a id="16-llm-evaluation"></a>
+
+> **Goal**: Quantify performance, robustness, and safety of prompts and models.  
+> **Description**: Local and cloud frameworks automate scoring for RAG, summarization, Q&A, and more.
 
 | Project | Details | Repository |
 | :--- | :--- | :--- |
@@ -102,6 +124,9 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 
 ### 1.7 Agent / App Frameworks  <a id="17-agent--app-frameworks"></a>
 
+> **Goal**: Compose prompts, tools, and workflows into full-stack LLM applications.  
+> **Description**: High-level SDKs and low-code builders accelerate agent development and experimentation.
+
 | Project | Details | Repository |
 | :--- | :--- | :--- |
 | [LangChain](https://github.com/hwchase17/langchain) | Building applications with LLMs through composability. | ![GitHub Badge](https://img.shields.io/github/stars/hwchase17/langchain.svg?style=flat-square) |
@@ -111,6 +136,9 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 
 ### 1.8 Pipeline Orchestration  <a id="18-pipeline-orchestration"></a>
 
+> **Goal**: Automate batch and streaming workflows for data ingestion, fine-tuning, and evaluation.  
+> **Description**: DAG-based schedulers and function-graph frameworks ensure reproducible, modular pipelines.
+
 | Project | Details | Repository |
 | :--- | :--- | :--- |
 | [Apache Airflow](https://github.com/apache/airflow) | A platform to programmatically author, schedule, and monitor workflows. Ideal for orchestrating batch jobs like fine-tuning or RAG indexing. | ![GitHub Badge](https://img.shields.io/github/stars/apache/airflow.svg?style=flat-square) |
@@ -118,9 +146,23 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 | [ZenML](https://github.com/zenml-io/zenml) | MLOps framework to create reproducible pipelines for ML and LLM workflows. | ![GitHub Badge](https://img.shields.io/github/stars/zenml-io/zenml.svg?style=flat-square) |
 | [Hamilton](https://github.com/dagworks-inc/hamilton) | A lightweight framework to represent ML/language model pipelines as a series of Python functions. | ![GitHub Badge](https://img.shields.io/github/stars/dagworks-inc/hamilton.svg?style=flat-square) |
 
+### 1.9 Text-to-SQL & Database Agents  <a id="19-text-to-sql--database-agents"></a>
+
+> **Goal**: Translate natural-language queries to SQL and unlock structured data for business users.  
+> **Description**: These tools combine LLMs with schema discovery and query execution to generate accurate, safe SQL across diverse databases.
+
+| Project | Details | Repository |
+| :--- | :--- | :--- |
+| [Chat2DB](https://github.com/chat2db/Chat2DB) | AI-augmented SQL client: natural-language to SQL, visualization, and reporting. | ![GitHub Badge](https://img.shields.io/github/stars/chat2db/Chat2DB.svg?style=flat-square) |
+| [Vanna.ai](https://github.com/vanna-ai/vanna) | Python-based framework for schema-aware text-to-SQL and RAG-enhanced analytics. | ![GitHub Badge](https://img.shields.io/github/stars/vanna-ai/vanna.svg?style=flat-square) |
+| [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) | Private, self-hosted text-to-SQL agent framework with RAG support. | ![GitHub Badge](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT.svg?style=flat-square) |
+
 ---
 
 ## Phase 2 – Model Adaptation  <a id="phase-2--model-adaptation"></a>
+
+> **Goal**: Specialize general-purpose LLMs to domain-specific tasks while controlling compute and data cost.  
+> **Description**: Parameter-efficient fine-tuning and editing techniques inject new knowledge and correct errors without full retraining.
 
 ### 2.1 PEFT & LoRA  <a id="21-peft--lora"></a>
 
@@ -142,6 +184,9 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 ---
 
 ## Phase 3 – Deployment & Serving  <a id="phase-3--deployment--serving"></a>
+
+> **Goal**: Deliver low-latency, scalable inference to end users across cloud and edge environments.  
+> **Description**: Engines, packaging frameworks, and local runtimes optimize throughput, cost, and portability.
 
 ### 3.1 High-Performance Inference & Serving  <a id="31-high-performance-inference--serving"></a>
 
@@ -176,27 +221,13 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 
 ## Phase 4 – Operations  <a id="phase-4--operations"></a>
 
+> **Goal**: Maintain reliability, cost efficiency, and user safety for live systems.  
+> **Description**: Observability, guardrails, and policy frameworks provide continuous feedback and protection.
+
 ### 4.1 Observability & Cost Management  <a id="41-observability--cost-management"></a>
 
 | Project | Details | Repository |
 | :--- | :--- | :--- |
 | [Helicone](https://github.com/Helicone/helicone) | Open source LLM observability platform for logging, monitoring, and debugging. | ![GitHub Badge](https://img.shields.io/github/stars/Helicone/helicone.svg?style=flat-square) |
 | [Portkey-SDK](https://github.com/Portkey-AI/portkey-python-sdk) | Control Panel with an observability suite & an AI gateway — to ship fast, reliable, and cost-efficient apps. | ![GitHub Badge](https://img.shields.io/github/stars/Portkey-AI/portkey-python-sdk.svg?style=flat-square) |
-| [Langfuse](https://github.com/langfuse/langfuse) | Open Source LLM Engineering Platform: Traces, evals, prompt management and metrics to debug and improve your LLM application. | ![GitHub Badge](https://img.shields.io/github/stars/langfuse/langfuse.svg?style=flat-square) |
-
-### 4.2 Security & Guardrails  <a id="42-security--guardrails"></a>
-
-| Project | Details | Repository |
-| :--- | :--- | :--- |
-| [Guardrails-AI](https://github.com/guardrails-ai/guardrails) | Declarative, schema-driven validation and content moderation for LLM outputs. | ![GitHub Badge](https://img.shields.io/github/stars/guardrails-ai/guardrails.svg?style=flat-square) |
-
----
-
-## Phase 5 – Privacy / Governance / Compliance  <a id="phase-5--privacy--governance--compliance"></a>
-
-| Project | Details | Repository |
-| :--- | :--- | :--- |
-| [Giskard](https://github.com/Giskard-AI/giskard) | Testing framework dedicated to ML models, from tabular to LLMs. Detect risks of biases, performance issues and errors. | ![GitHub Badge](https://img.shields.io/github/stars/Giskard-AI/giskard.svg?style=flat-square) |
-| [Deepchecks](https://github.com/deepchecks/deepchecks) | Tests for Continuous Validation of ML Models & Data. | ![GitHub Badge](https://img.shields.io/github/stars/deepchecks/deepchecks.svg?style=flat-square) |
-
----
+| [Langfuse](https://github.com/langfuse/langfuse) | Open Source LLM Engineering Platform: Traces, evals, prompt manag
