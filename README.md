@@ -71,12 +71,14 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 
 | Project | Details | Repository |
 | :--- | :--- | :--- |
-| [Apache Airflow](https://github.com/apache/airflow) | A platform to programmatically author, schedule, and monitor workflows. Ideal for orchestrating batch jobs like fine-tuning or RAG indexing. | ![GitHub Badge](https://img.shields.io/github/stars/apache/airflow.svg?style=flat-square) |
-| [Apache NiFi](https://github.com/apache/nifi) | An easy to use, powerful, and reliable system to process and distribute data. Well-suited for real-time, streaming data pipelines for RAG. | ![GitHub Badge](https://img.shields.io/github/stars/apache/nifi.svg?style=flat-square) |
+| [Chat2DB](https://github.com/chat2db/Chat2DB) | An intelligent and versatile general-purpose SQL client and reporting tool that integrates AI capabilities for Text-to-SQL. | ![GitHub Badge](https://img.shields.io/github/stars/chat2db/Chat2DB.svg?style=flat-square) |
+| [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) | Revolutionizing Data Interactions with Private LLM Technology and a data-driven agent framework. | ![GitHub Badge](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT.svg?style=flat-square) |
+| [Vanna.ai](https://github.com/vanna-ai/vanna) | An open-source Python-based SQL generation and RAG framework for your database. | ![GitHub Badge](https://img.shields.io/github/stars/vanna-ai/vanna.svg?style=flat-square) |
 | [Dify](https://github.com/langgenius/dify) | An open-source LLM app development platform for building and operating generative AI-native applications. | ![GitHub Badge](https://img.shields.io/github/stars/langgenius/dify.svg?style=flat-square) |
 | [Flowise](https://github.com/FlowiseAI/Flowise) | Drag & drop UI to build your customized LLM flow using LangchainJS. | ![GitHub Badge](https://img.shields.io/github/stars/FlowiseAI/Flowise.svg?style=flat-square) |
 | [LangFlow](https://github.com/logspace-ai/langflow) | An effortless way to experiment and prototype LangChain flows with a chat interface. | ![GitHub Badge](https://img.shields.io/github/stars/logspace-ai/langflow.svg?style=flat-square) |
-| [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) | Revolutionizing Data Interactions with Private LLM Technology and a data-driven agent framework. | ![GitHub Badge](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT.svg?style=flat-square) |
+| [Apache Airflow](https://github.com/apache/airflow) | A platform to programmatically author, schedule, and monitor workflows. Ideal for orchestrating batch jobs like fine-tuning or RAG indexing. | ![GitHub Badge](https://img.shields.io/github/stars/apache/airflow.svg?style=flat-square) |
+| [Apache NiFi](https://github.com/apache/nifi) | An easy to use, powerful, and reliable system to process and distribute data. Well-suited for real-time, streaming data pipelines for RAG. | ![GitHub Badge](https://img.shields.io/github/stars/apache/nifi.svg?style=flat-square) |
 | [ZenML](https://github.com/zenml-io/zenml) | MLOps framework to create reproducible pipelines for ML and LLM workflows. | ![GitHub Badge](https://img.shields.io/github/stars/zenml-io/zenml.svg?style=flat-square) |
 | [langchain](https://github.com/hwchase17/langchain) | Building applications with LLMs through composability | ![GitHub Badge](https://img.shields.io/github/stars/hwchase17/langchain.svg?style=flat-square) |
 | [LlamaIndex](https://github.com/jerryjliu/llama_index) | Provides a central interface to connect your LLMs with external data. | ![GitHub Badge](https://img.shields.io/github/stars/jerryjliu/llama_index.svg?style=flat-square) |
@@ -100,6 +102,8 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 
 | Project | Details | Repository |
 | :--- | :--- | :--- |
+| [LlamaFactory](https://github.com/hiyouga/LLaMA-Factory) | A unified, efficient fine-tuning framework for over 100 LLMs and VLMs. | ![GitHub Badge](https://img.shields.io/github/stars/hiyouga/LLaMA-Factory.svg?style=flat-square) |
+| [Swift (modelscope)](https://github.com/modelscope/swift) | A framework for fine-tuning and deploying 500+ LLMs and 200+ MLLMs, with extensive support for PEFT techniques. | ![GitHub Badge](https://img.shields.io/github/stars/modelscope/swift.svg?style=flat-square) |
 | [peft](https://github.com/huggingface/peft) | State-of-the-art Parameter-Efficient Fine-Tuning. | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/peft.svg?style=flat-square) |
 | [QLoRA](https://github.com/artidoro/qlora) | Finetune a 65B parameter model on a single 48GB GPU while preserving full 16-bit finetuning task performance. | ![GitHub Badge](https://img.shields.io/github/stars/artidoro/qlora.svg?style=flat-square) |
 | [TRL](https://github.com/huggingface/trl) | Train transformer language models with reinforcement learning. | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/trl.svg?style=flat-square) |
@@ -115,13 +119,16 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 | Project | Details | Repository |
 | :--- | :--- | :--- |
 | [vllm](https://github.com/vllm-project/vllm) | A high-throughput and memory-efficient inference and serving engine for LLMs. | ![GitHub Badge](https://img.shields.io/github/stars/vllm-project/vllm.svg?style=flat-square) |
+| [SGLang](https://github.com/sgl-project/sglang) | A fast serving framework for LLMs and VLMs, designed for high throughput and controllable, structured generation. | ![GitHub Badge](https://img.shields.io/github/stars/sgl-project/sglang.svg?style=flat-square) |
 | [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | Inference engine for TensorRT on Nvidia GPUs | ![GitHub Badge](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM.svg?style=flat-square) |
-| [Ollama](https://github.com/jmorganca/ollama) | Serve Llama 2 and other large language models locally from command line or through a browser interface. | ![GitHub Badge](https://img.shields.io/github/stars/jmorganca/ollama.svg?style=flat-square) |
+| [Ollama](https://github.com/jmorganca/ollama) | Serve LLMs locally. A user-friendly application often powered by llama.cpp underneath. | ![GitHub Badge](https://img.shields.io/github/stars/jmorganca/ollama.svg?style=flat-square) |
+| [llama.cpp](https://github.com/ggerganov/llama.cpp) | A foundational library for LLM inference in pure C/C++, enabling efficient performance on CPUs and consumer hardware. | ![GitHub Badge](https://img.shields.io/github/stars/ggerganov/llama.cpp.svg?style=flat-square) |
 
 #### 3.2 Model Deployment & Packaging
 
 | Project | Details | Repository |
 | :--- | :--- | :--- |
+| [Xinference](https://github.com/xorbitsai/inference) | A versatile platform to serve language, speech, and multimodal models with a unified, OpenAI-compatible API. | ![GitHub Badge](https://img.shields.io/github/stars/xorbitsai/inference.svg?style=flat-square) |
 | [TrueFoundry-Py](https://github.com/truefoundry/truefoundry-py) | A PaaS to deploy, Fine-tune and serve LLM Models on your own Infrastructure with Data Security and Optimal GPU Management. | ![GitHub Badge](https://img.shields.io/github/stars/truefoundry/truefoundry-py.svg?style=flat-square) |
 | [BentoML](https://github.com/bentoml/BentoML) | The Unified Model Serving Framework | ![GitHub Badge](https://img.shields.io/github/stars/bentoml/BentoML.svg?style=flat-square) |
 | [OpenLLM](https://github.com/bentoml/OpenLLM) | An open platform for operating large language models (LLMs) in production. | ![GitHub Badge](https://img.shields.io/github/stars/bentoml/OpenLLM.svg?style=flat-square) |
