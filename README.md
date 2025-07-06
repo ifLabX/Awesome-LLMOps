@@ -30,11 +30,30 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 #### 1.1 Data & Knowledge Management
 *Description*: Preparing, managing, and versioning data for RAG and fine-tuning, which is the cornerstone of building intelligent applications.
 
+**RAG Platforms & Data Versioning**
+
 | Project | Details | Repository |
 | :--- | :--- | :--- |
+| [RagFlow](https://github.com/infiniflow/ragflow) | An open-source RAG application that provides a streamlined workflow based on deep document understanding. | ![GitHub Badge](https://img.shields.io/github/stars/infiniflow/ragflow.svg?style=flat-square) |
+| [FastGPT](https://github.com/labring/FastGPT) | A platform that based on LLM, allows you to create your own knowledge base QA model with out-of-the-box capabilities. | ![GitHub Badge](https://img.shields.io/github/stars/labring/FastGPT.svg?style=flat-square) |
 | [DVC](https://github.com/iterative/dvc) | Data Version Control - Git for Data & Models - ML Experiments Management. | ![GitHub Badge](https://img.shields.io/github/stars/iterative/dvc.svg?style=flat-square) |
 | [deeplake](https://github.com/activeloopai/deeplake) | Data Lake for Deep Learning. Build, manage, query, version, & visualize datasets. Stream data in real-time to PyTorch/TensorFlow. | ![GitHub Badge](https://img.shields.io/github/stars/activeloopai/Hub.svg?style=flat-square) |
 | [LakeFS](https://github.com/treeverse/lakeFS) | Git-like capabilities for your object storage. | ![GitHub Badge](https://img.shields.io/github/stars/treeverse/lakeFS.svg?style=flat-square) |
+
+**Document Processing & Data Cleaning**
+
+| Project | Details | Repository |
+| :--- | :--- | :--- |
+| [Data-Juicer](https://github.com/modelscope/data-juicer) | A one-stop data processing system for LLMs. Used to build diverse, high-quality data recipes for pre-training and fine-tuning. | ![GitHub Badge](https://img.shields.io/github/stars/modelscope/data-juicer.svg?style=flat-square) |
+| [Firecrawl](https://github.com/mendableai/firecrawl) | An API service that crawls any URL and converts it into clean, LLM-ready Markdown or structured data. | ![GitHub Badge](https://img.shields.io/github/stars/mendableai/firecrawl.svg?style=flat-square) |
+| [OneFileLLM](https://github.com/jimmc414/onefilellm) | A CLI tool to aggregate and preprocess data from multiple sources (files, GitHub, web) into a single text file for LLM use. | ![GitHub Badge](https://img.shields.io/github/stars/jimmc414/onefilellm.svg?style=flat-square) |
+| [Apache Tika](https://github.com/apache/tika) | A content detection and analysis framework that extracts text and metadata from a huge variety of file formats. | ![GitHub Badge](https://img.shields.io/github/stars/apache/tika.svg?style=flat-square) |
+| [Unstructured](https://github.com/Unstructured-IO/unstructured) | Open-source libraries and APIs to build custom data transformation pipelines for ETL, LLMs, and data analysis. | ![GitHub Badge](https://img.shields.io/github/stars/Unstructured-IO/unstructured.svg?style=flat-square) |
+| [DeepKE](https://github.com/zjunlp/DeepKE) | A deep learning based knowledge extraction toolkit, supporting named entity, relation, and attribute extraction. | ![GitHub Badge](https://img.shields.io/github/stars/zjunlp/DeepKE.svg?style=flat-square) |
+| [Label Studio](https://github.com/HumanSignal/label-studio) | A multi-type data labeling and annotation tool with a standardized output format. Essential for creating high-quality datasets. | ![GitHub Badge](https://img.shields.io/github/stars/HumanSignal/label-studio.svg?style=flat-square) |
+| [Lilac](https://github.com/lilacai/lilac) | An open-source tool that helps you see and understand your unstructured text data. Explore, cluster, clean, and enrich datasets for LLMs. | ![GitHub Badge](https://img.shields.io/github/stars/lilacai/lilac.svg?style=flat-square) |
+| [Cleanlab](https://github.com/cleanlab/cleanlab) | The standard data-centric AI package for data quality and machine learning with messy, real-world data and labels. | ![GitHub Badge](https://img.shields.io/github/stars/cleanlab/cleanlab.svg?style=flat-square) |
+
 
 #### 1.2 Prompt Engineering & Optimization
 *Description*: Systematically designing, testing, versioning, and optimizing prompts to ensure stable and high-quality model outputs.
@@ -52,9 +71,9 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 
 | Project | Details | Repository |
 | :--- | :--- | :--- |
+| [Apache Airflow](https://github.com/apache/airflow) | A platform to programmatically author, schedule, and monitor workflows. Ideal for orchestrating batch jobs like fine-tuning or RAG indexing. | ![GitHub Badge](https://img.shields.io/github/stars/apache/airflow.svg?style=flat-square) |
+| [Apache NiFi](https://github.com/apache/nifi) | An easy to use, powerful, and reliable system to process and distribute data. Well-suited for real-time, streaming data pipelines for RAG. | ![GitHub Badge](https://img.shields.io/github/stars/apache/nifi.svg?style=flat-square) |
 | [Dify](https://github.com/langgenius/dify) | An open-source LLM app development platform for building and operating generative AI-native applications. | ![GitHub Badge](https://img.shields.io/github/stars/langgenius/dify.svg?style=flat-square) |
-| [RagFlow](https://github.com/infiniflow/ragflow) | An open-source RAG application that provides a streamlined workflow based on deep document understanding. | ![GitHub Badge](https://img.shields.io/github/stars/infiniflow/ragflow.svg?style=flat-square) |
-| [FastGPT](https://github.com/labring/FastGPT) | A platform that based on LLM, allows you to create your own knowledge base QA model with out-of-the-box capabilities. | ![GitHub Badge](https://img.shields.io/github/stars/labring/FastGPT.svg?style=flat-square) |
 | [Flowise](https://github.com/FlowiseAI/Flowise) | Drag & drop UI to build your customized LLM flow using LangchainJS. | ![GitHub Badge](https://img.shields.io/github/stars/FlowiseAI/Flowise.svg?style=flat-square) |
 | [LangFlow](https://github.com/logspace-ai/langflow) | An effortless way to experiment and prototype LangChain flows with a chat interface. | ![GitHub Badge](https://img.shields.io/github/stars/logspace-ai/langflow.svg?style=flat-square) |
 | [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) | Revolutionizing Data Interactions with Private LLM Technology and a data-driven agent framework. | ![GitHub Badge](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT.svg?style=flat-square) |
@@ -121,6 +140,7 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 | [Helicone](https://github.com/Helicone/helicone) | Open source LLM observability platform for logging, monitoring, and debugging. | ![GitHub Badge](https://img.shields.io/github/stars/Helicone/helicone.svg?style=flat-square) |
 | [Portkey-SDK](https://github.com/Portkey-AI/portkey-python-sdk) | Control Panel with an observability suite & an AI gateway — to ship fast, reliable, and cost-efficient apps. | ![GitHub Badge](https://img.shields.io/github/stars/Portkey-AI/portkey-python-sdk.svg?style=flat-square) |
 | [Langfuse](https://github.com/langfuse/langfuse) | Open Source LLM Engineering Platform: Traces, evals, prompt management and metrics to debug and improve your LLM application. | ![GitHub Badge](https://img.shields.io/github/stars/langfuse/langfuse.svg?style=flat-square) |
+
 
 #### 4.2 Security & Guardrails
 
