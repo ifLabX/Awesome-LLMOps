@@ -94,8 +94,7 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 | :--- | :--- | :--- |
 | [promptfoo](https://github.com/typpo/promptfoo) | Open-source tool for testing & evaluating prompt quality. | ![GitHub Badge](https://img.shields.io/github/stars/typpo/promptfoo.svg?style=flat-square) |
 | [Agenta](https://github.com/agenta-ai/agenta) | An open-source LLMOps platform with tools for prompt management, evaluation, and deployment. | ![GitHub Badge](https://img.shields.io/github/stars/agenta-ai/agenta.svg?style=flat-square) |
-| [Vellum-Python](https://github.com/vellum-ai/vellum-python) | An AI product development platform to experiment with, evaluate, and deploy advanced LLM apps. | ![GitHub Badge](https://img.shields.io/github/stars/vellum-ai/vellum-python.svg?style=flat-square) |
-| [DSPy](https://github.com/stanford-oval/dspy) | A framework for programming—not just prompting—language models. It allows you to optimize prompts and weights. | ![GitHub Badge](https://img.shields.io/github/stars/stanford-oval/dspy.svg?style=flat-square) |
+| [DSPy](https://github.com/stanfordnlp/dspy) | A framework for programming—not just prompting—language models. It allows you to optimize prompts and weights. | ![GitHub Badge](https://img.shields.io/github/stars/stanfordnlp/dspy.svg?style=flat-square) |
 | [Chainlit](https://github.com/Chainlit/chainlit) | Build and share conversational UIs in seconds; perfect for interactive prompt sandboxing and demos. | ![GitHub Badge](https://img.shields.io/github/stars/Chainlit/chainlit.svg?style=flat-square) |
 
 ### 1.5 Experiment Tracking  <a id="15-experiment-tracking"></a>
@@ -173,7 +172,7 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 | [peft](https://github.com/huggingface/peft) | State-of-the-art Parameter-Efficient Fine-Tuning. | ![GitHub Badge](https://img.shields.io/github/stars/huggingface/peft.svg?style=flat-square) |
 | [QLoRA](https://github.com/artidoro/qlora) | Finetune a 65 B parameter model on a single 48 GB GPU while preserving full 16-bit finetuning task performance. | ![GitHub Badge](https://img.shields.io/github/stars/artidoro/qlora.svg?style=flat-square) |
 | [axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) | A tool designed to streamline the fine-tuning of various AI models. | ![GitHub Badge](https://img.shields.io/github/stars/OpenAccess-AI-Collective/axolotl.svg?style=flat-square) |
-| [LoRA-Hub](https://github.com/cloneofsimo/lora-hub) | Community marketplace and registry for sharing and discovering LoRA weight adapters. | ![GitHub Badge](https://img.shields.io/github/stars/cloneofsimo/lora-hub.svg?style=flat-square) |
+| [LoRA-Hub](https://github.com/sail-sg/lorahub) | Community marketplace and registry for sharing and discovering LoRA weight adapters. | ![GitHub Badge](https://img.shields.io/github/stars/sail-sg/lorahub.svg?style=flat-square) |
 
 ### 2.2 Model Editing  <a id="22-model-editing"></a>
 
@@ -203,7 +202,6 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 | Project | Details | Repository |
 | :--- | :--- | :--- |
 | [Xinference](https://github.com/xorbitsai/inference) | A versatile platform to serve language, speech, and multimodal models with a unified, OpenAI-compatible API. | ![GitHub Badge](https://img.shields.io/github/stars/xorbitsai/inference.svg?style=flat-square) |
-| [TrueFoundry-Py](https://github.com/truefoundry/truefoundry-py) | A PaaS to deploy, Fine-tune and serve LLM Models on your own Infrastructure with Data Security and Optimal GPU Management. | ![GitHub Badge](https://img.shields.io/github/stars/truefoundry/truefoundry-py.svg?style=flat-square) |
 | [BentoML](https://github.com/bentoml/BentoML) | The Unified Model Serving Framework. | ![GitHub Badge](https://img.shields.io/github/stars/bentoml/BentoML.svg?style=flat-square) |
 | [OpenLLM](https://github.com/bentoml/OpenLLM) | An open platform for operating large language models (LLMs) in production. | ![GitHub Badge](https://img.shields.io/github/stars/bentoml/OpenLLM.svg?style=flat-square) |
 | [Kserve](https://github.com/kserve/kserve) | Standardized Serverless ML Inference Platform on Kubernetes. | ![GitHub Badge](https://img.shields.io/github/stars/kserve/kserve.svg?style=flat-square) |
