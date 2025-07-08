@@ -228,4 +228,24 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 | :--- | :--- | :--- |
 | [Helicone](https://github.com/Helicone/helicone) | Open source LLM observability platform for logging, monitoring, and debugging. | ![GitHub Badge](https://img.shields.io/github/stars/Helicone/helicone.svg?style=flat-square) |
 | [Portkey-SDK](https://github.com/Portkey-AI/portkey-python-sdk) | Control Panel with an observability suite & an AI gateway — to ship fast, reliable, and cost-efficient apps. | ![GitHub Badge](https://img.shields.io/github/stars/Portkey-AI/portkey-python-sdk.svg?style=flat-square) |
-| [Langfuse](https://github.com/langfuse/langfuse) | Open Source LLM Engineering Platform: Traces, evals, prompt manag
+| [Langfuse](https://github.com/langfuse/langfuse) | Open Source LLM Engineering Platform: Traces, evals, prompt management and metrics to debug and improve your LLM application. | ![GitHub Badge](https://img.shields.io/github/stars/langfuse/langfuse.svg?style=flat-square) |
+
+### 4.2 Security & Guardrails  <a id="42-security--guardrails"></a>
+
+| Project | Details | Repository |
+| :--- | :--- | :--- |
+| [Guardrails-AI](https://github.com/guardrails-ai/guardrails) | Declarative, schema-driven validation and content moderation for LLM outputs. | ![GitHub Badge](https://img.shields.io/github/stars/guardrails-ai/guardrails.svg?style=flat-square) |
+
+---
+
+## Phase 5 – Privacy / Governance / Compliance  <a id="phase-5--privacy--governance--compliance"></a>
+
+> **Goal**: Ensure AI systems meet legal, ethical, and organizational standards.  
+> **Description**: Policy-as-code, bias detection, and continuous validation frameworks enable trustworthy deployment.
+
+| Project | Details | Repository |
+| :--- | :--- | :--- |
+| [Giskard](https://github.com/Giskard-AI/giskard) | Testing framework dedicated to ML models, from tabular to LLMs. Detect risks of biases, performance issues and errors. | ![GitHub Badge](https://img.shields.io/github/stars/Giskard-AI/giskard.svg?style=flat-square) |
+| [Deepchecks](https://github.com/deepchecks/deepchecks) | Tests for Continuous Validation of ML Models & Data. | ![GitHub Badge](https://img.shields.io/github/stars/deepchecks/deepchecks.svg?style=flat-square) |
+
+---
