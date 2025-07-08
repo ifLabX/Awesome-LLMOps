@@ -26,7 +26,8 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
   - [1.6 LLM Evaluation](#16-llm-evaluation)  
   - [1.7 Agent / App Frameworks](#17-agent--app-frameworks)  
   - [1.8 Pipeline Orchestration](#18-pipeline-orchestration)  
-  - [1.9 Text-to-SQL & Database Agents](#19-text-to-sql--database-agents)  
+  - [1.9 Text-to-SQL & Database Agents](#19-text-to-sql--database-agents)
+  - [1.10 LLM Web Clients & Chat UIs](#llm-web-clients--chat-uis)
 - [Phase 2 – Model Adaptation](#phase-2--model-adaptation)  
   - [2.1 PEFT & LoRA](#21-peft--lora)  
   - [2.2 Model Editing](#22-model-editing)  
@@ -132,6 +133,9 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 | [LlamaIndex](https://github.com/jerryjliu/llama_index) | Provides a central interface to connect your LLMs with external data. | ![GitHub Badge](https://img.shields.io/github/stars/jerryjliu/llama_index.svg?style=flat-square) |
 | [Dify](https://github.com/langgenius/dify) | An open-source LLM app development platform for building and operating generative AI-native applications. | ![GitHub Badge](https://img.shields.io/github/stars/langgenius/dify.svg?style=flat-square) |
 | [Flowise](https://github.com/FlowiseAI/Flowise) | Drag & drop UI to build your customized LLM flow using LangchainJS. | ![GitHub Badge](https://img.shields.io/github/stars/FlowiseAI/Flowise.svg?style=flat-square) |
+| [OpenChat](https://github.com/openchat/openchat) | Open-source ChatGPT alternative. A robust and extensible open platform for conversational AI, agentic workflows, and custom plugins. | ![GitHub Badge](https://img.shields.io/github/stars/openchat/openchat.svg?style=flat-square) |
+| [MaxKB](https://github.com/StevenWang-995/MaxKB) | An extensible, self-hosted, open-source knowledge base and conversational agent platform for RAG, workflow automation, and personal/private GPTs. | ![GitHub Badge](https://img.shields.io/github/stars/StevenWang-995/MaxKB.svg?style=flat-square) |
+
 
 ### 1.8 Pipeline Orchestration  <a id="18-pipeline-orchestration"></a>
 
@@ -155,6 +159,20 @@ LLMOps provides the principles, practices, and tools necessary to build, deploy,
 | [Chat2DB](https://github.com/chat2db/Chat2DB) | AI-augmented SQL client: natural-language to SQL, visualization, and reporting. | ![GitHub Badge](https://img.shields.io/github/stars/chat2db/Chat2DB.svg?style=flat-square) |
 | [Vanna.ai](https://github.com/vanna-ai/vanna) | Python-based framework for schema-aware text-to-SQL and RAG-enhanced analytics. | ![GitHub Badge](https://img.shields.io/github/stars/vanna-ai/vanna.svg?style=flat-square) |
 | [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) | Private, self-hosted text-to-SQL agent framework with RAG support. | ![GitHub Badge](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT.svg?style=flat-square) |
+
+
+### 1.10 LLM Web Clients & Chat UIs  <a id="llm-web-clients--chat-uis"></a>
+
+> **Goal**: Provide user-friendly, open-source frontends for ChatGPT-compatible and self-hosted LLMs, with multi-backend support, plugin systems, knowledge base, and teamwork features.  
+> **Description**: These projects make it easy to interact with LLMs from web browsers and mobile devices, enabling team or personal usage, plugin integration, and knowledge management.
+
+| Project | Details | Repository |
+| :--- | :--- | :--- |
+| [ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web) | Open-source ChatGPT web UI, supports multiple LLM backends, fast deployment, personal/private use, and advanced features. | ![GitHub Badge](https://img.shields.io/github/stars/Yidadaa/ChatGPT-Next-Web.svg?style=flat-square) |
+| [Open WebUI](https://github.com/open-webui/open-webui) | Modern, extensible, and self-hosted UI for local or remote LLMs. Supports Ollama, OpenAI, and more. Teamwork and plugin support. | ![GitHub Badge](https://img.shields.io/github/stars/open-webui/open-webui.svg?style=flat-square) |
+| [Chatbot UI](https://github.com/mckaywrigley/chatbot-ui) | ChatGPT-style open-source web UI for connecting to OpenAI and compatible APIs, extensible and customizable for personal use. | ![GitHub Badge](https://img.shields.io/github/stars/mckaywrigley/chatbot-ui.svg?style=flat-square) |
+| [LobeChat](https://github.com/lobehub/lobechat) | An open-source, extensible ChatGPT web UI. Team workspace, plugin ecosystem, multi-LLM support (OpenAI, Azure, Google, Anthropic, Ollama, etc). | ![GitHub Badge](https://img.shields.io/github/stars/lobehub/lobechat.svg?style=flat-square) |
+| [NeatChat](https://github.com/neatcaat/neatchat) | Minimal, clean, and privacy-friendly ChatGPT web UI, supports OpenAI, Azure, local LLMs, and markdown knowledge base. | ![GitHub Badge](https://img.shields.io/github/stars/neatcaat/neatchat.svg?style=flat-square) |
 
 ---
 
